@@ -1,0 +1,153 @@
+::-webkit-scrollbar {
+    width:5px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgb(35, 10, 179);
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: rgba(55, 184, 201, 0.829);
+}
+.header{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.32);
+    opacity: 0.8;
+
+}
+.header h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+}
+.header h2{
+    color: white;
+    font-size: 20px;
+}
+h5 {
+    color: #0035ff;
+    display:  block;
+}
+.todoContainer div:first-child, .doingContainer div:first-child, .doneContainer div:first-child  {
+    padding: 8px;   
+    width: 300px;
+    border-radius:  10px 10px 0 0;
+    overflow: auto;
+    height: 300px;
+    background-color: rgba(129, 216, 224, 0.93);
+}
+
+.todoContainer, .doingContainer, .doneContainer{
+    margin: 60px;
+    width: 300px;
+    height: 40
+}
+.todoContainer textarea, .doingContainer textarea{
+    padding:5px;
+    border-bottom-style:solid;
+    border-color:#ccc;
+    width:300px !important;
+    border-radius: 0 0 10px 10px;
+}
+
+.todoContainer span, .doingContainer span, .doneContainer span {
+    word-wrap: break-word;
+    padding:20px 10px 10px 10px;
+    border-bottom-style:solid;
+    border-color:#ccc;
+    margin:2px;
+    border-radius: 6px;
+}
+
+
+/* #inputItems{
+    display: none;
+} */
+.remove{
+    background: none;
+    border: none;
+    position: absolute;
+    top: 1px;
+    left: 90%;
+}
+.edit{
+    background: none;
+    border: none;
+    position: absolute;
+    top: 1px;
+    left: 85%;
+}
+.remove .fa-times-circle {
+    font-size: 20px;
+    color: rgba(236, 52, 6, 0.479);
+}
+
+.list-group-item:first-child{
+    border-radius: 6px;
+}
+.list-group-item:last-child{
+    border-radius: 6px;
+}
+.MyPage {
+    size: cover;
+    display: flex;
+    flex-direction: row;
+    background: url(https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/4030999/910/607/m1/fpnw/wm0/nature_background_with_green_leaves_and_grass-.jpg?1519082029&s=8fe4ba727ba08c859587c9b1afc4cae4);
+}
+
+.inputItems {  
+    word-wrap: break-word;
+    width: 90%;
+    padding: 10px;
+    border: none;
+    width: 300px !important;
+    height: 80px;
+   
+}
+#editItem {
+    word-wrap: break-word;
+    width: 95%;
+    padding: 5px;
+    border-radius: 5px;
+    height: 80px;
+    margin: 5px 5px 10px 5px ;
+    border:1px solid blue;
+}
+#modalEdit{
+    position: absolute;
+   width:360px;
+   top: 60%;
+   left: 40%;
+  
+}
+.remove, .edit {
+    font-size: 13px;
+    right: 2px;
+    position: absolute;
+    border-radius: 5px;
+}
+.enterText{
+    overflow: hidden;
+}
+
+.btn{
+    margin: 5px;
+    float: right;
+}
+
+.modal{
+    width: 280px;
+    height: 350px;
+}
+.modal-header {
+    padding: 5px;
+    height: 40px;
+}
+.modal-body {
+    padding: 5px;
+    height: 90px;
+}
+.modal-footer {
+    height: 40px;
+    padding: 10px;
+}

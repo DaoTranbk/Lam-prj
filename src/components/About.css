@@ -1,0 +1,34 @@
+/* .container {
+     display: flex;
+    flex-direction: column; 
+     flex-wrap: wrap;  
+} */
+
+
+.container {
+    min-width: 100vw;
+    min-height: 100vh;
+   
+    position: absolute;
+    background-color: brown;
+    
+
+}
+.upper {
+    /* flex: 50%; */
+    background-color: bisque;
+    min-width: 100vw; 
+    min-height: 50vh;
+    
+    position: relative;
+}
+
+.lower {
+    /* flex: 50%; */
+    background-color: burlywood;
+    min-width: 100vw; 
+    min-height: 50vh;
+   
+    position: relative;
+    
+}
